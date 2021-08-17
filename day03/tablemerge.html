@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>셀 합치기</title>
+    <style>
+        table, td{border:1px solid #CCC;
+        margin: 20px;
+        /* width: 200px; */}
+        td{height: 30px; width: 100px;}
+         /* padding 바깥 여백, margin 안쪽 여백 */
+    </style>
+</head>
+<body>
+    <!-- 행 합치기:rowspan, 열 합치기:colspan -->
+    <table>
+        <caption>행 합치기</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>열 합치기</caption>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+</body>
+</html>

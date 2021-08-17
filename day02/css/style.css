@@ -1,0 +1,7 @@
+h1{color:rgb(0, 255, 255)}
+p{
+    /* text-align: center; */
+    text-align: left;
+    line-height: 2em;
+    /* 2em : 줄간격 2배로 확대(글자크기 한개 만큼 띄우기) 1.5em(글자크기 반만큼 띄우기) */
+}

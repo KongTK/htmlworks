@@ -1,0 +1,4 @@
+ul{list-style-type: circle;
+list-style: none;}
+/* 스타일 없애기 가능 */
+li{color:tomato;}

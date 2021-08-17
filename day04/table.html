@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>표 만들기</title>
+        <style>
+            table, th, td{border:1px solid #0000ff;
+            border-collapse: collapse;
+            margin: 20px;
+            width: 300px;
+            text-align: center;}
+            th, td{
+                height: 50px;
+                padding: 10px 20px;
+            vertical-align: top;}
+            /* 10px 20px로 표현해도 반복하여 같은 결과 */
+            caption{margin-bottom: 10px;}
+            thead{background-color: #eee;
+            text-align: center;}
+            tbody{text-align: center;
+            vertical-align: bottom;}
+            /* 수평 정렬(text-align)-left/right/center */
+            /* 수직 정렬(vertical-align)-top/middle/bottom */
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>프로 축구 경기 일정</caption>
+            <thead>
+                <th>구단</th>
+                <th>시합</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>울산</td>
+                <td>울산vs인천</td>
+            </tr>
+            <tr>
+                <td>부산</td>
+                <td>부산vs대전</td>
+            </tr>
+            <tr>
+                <td>서울</td>
+                <td>서울vs전북</td>
+            </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

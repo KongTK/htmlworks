@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마진 여백 스타일</title>
+    <style>
+        #wrap{width: 600px; height:600px; border:1px solid #CCC; margin: 0 auto;}
+        /* 상하 여백은 0px, 좌우 여백은 자동 생성 */
+        div{width: 200px; height:100px; margin:30px; display: inline-block;}
+        .box1{background-color: green; margin: 30px;}
+        .box2{background-color: orange; margin: 50px;}
+        .box3{background-color: blue; margin:40px;}
+        /* 수직 배치에서 마진이 중첩될 경우 큰 쪽으로 결정됨 ex)box1,box2간 마진 50px */
+        /* 수평 배치에는 마진이 중첩될 경우 합산됨 ex)box1,box2간 마진 80px */
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+</body>
+</html>

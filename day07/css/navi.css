@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 0 auto;}
+header{height: 80px; background-color: rgb(12,94,87);}
+#logo{width: 250px; float: left; padding-left: 30px; line-height: 80px;}
+/* header와 logo의 height가 같은 수치면 가운데에 배치  */
+#logo a{text-decoration: none; color: #FFF;}
+#logo a:hover{color:yellow}
+nav{height: 80px; float: right;}
+nav ul{list-style:none; text-align: right; margin-right: 50px;}
+nav ul li{display: inline-block; margin: 30px;}
+/* border 삽입 시 너무 글자에 붙어있기 때문에 padding 넣어 간격 조절을 해줘야 보기 좋음 */
+/* border 없으면 margin이 있어서 빼도 무방 */
+nav ul li a{text-decoration: none; color: #FFF;}
+nav ul li a:hover{color:yellow;}
+section{padding: 20px;}

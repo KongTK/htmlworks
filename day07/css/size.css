@@ -1,0 +1,14 @@
+div{width: 300px; height: 300px; border: 1px solid #CCC; margin: 20px;}
+.bg1{background:url(../images/bg.jpg) no-repeat;}
+.bg2{background:url(../images/bg.jpg) no-repeat;
+    background-size:200px;}
+.bg3{background:url(../images/bg.jpg) no-repeat top right;
+    background-size:80%;}
+    /* 1에서 지정한 box크기(300px)의 80% */
+.bg4{background:url(../images/bg.jpg) no-repeat;
+    background-size:contain;}
+    /* 이미지가 축소되어 비율에 맞추어 보여줌 */
+.bg5{background:url(../images/bg.jpg) no-repeat;
+    background-size:cover;}
+    /* 이미지가 축소되어 box에 꽉 차게 보여줌 */
+    /* bg 이미지-사이즈 순으로 넣어야 사이즈 조절, 역순으로 넣으면 크기 조절 불가  */

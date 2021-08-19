@@ -1,0 +1,8 @@
+#container{width: 650px; margin:0 auto;}
+#check{width: 640px; border: 1px solid #ccc; text-align: center;}
+h1{background-color: #000; color:#fff; font-size: 1em; padding: 10px; margin: 0; text-align: left;}
+h2{color: #ff0000; font-size: 1.7em;}
+p{line-height: 2; font-weight: bold; font-size: 1.2em;}
+/* 굵게는 font-size가 아니고 font-weight */
+.accent{color: #00f;}
+.smalltext{font-size: 0.7em;}

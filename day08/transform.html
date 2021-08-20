@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform 속성</title>
+    <style>
+        div.a{width: 150px; height: 80px; background-color: yellowgreen;}
+        div.b{width: 150px; height: 80px; background-color: yellowgreen; transform: rotate(20deg);}
+        /* 회전 */
+        div.c{width: 150px; height: 80px; background-color: yellowgreen; transform: translateX(50px);}
+        /* 이동 */
+        div.d{width: 150px; height: 80px; background-color: yellowgreen; transform: scaleY(1.5);}
+        /* 크기 변경(Y축으로 1.5배 확대) */
+        /* translateY 아니므로 주의 */
+        /* scaleX:X조절, scaleY:Y조절, scale:X,Y모두 조절 */
+        div.e{width: 150px; height: 80px; background-color: yellowgreen; transform: scale(0.8);}
+
+    </style>
+</head>
+<body>
+    <h2>변형전 개체</h2>
+    <div class="a">Hello World</div>
+
+    <h2>transform: rotate(20deg)</h2>
+    <div class="b">Hello World</div>
+
+    <h2>transform: translateX(50px)</h2>
+    <div class="c">Hello World</div>
+
+    <h2>transform: translateY(1.5)</h2>
+    <div class="d">Hello World</div>
+
+    <h2>transform: translate(scale)</h2>
+    <div class="e">Hello World</div>
+
+</body>
+</html>

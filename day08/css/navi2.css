@@ -1,0 +1,9 @@
+*{margin: 0;}
+header{height: 60px; padding: 10px; background-color: beige; margin-bottom: 20px;}
+nav ul{list-style: none;}
+nav ul li{width: 100px; height: 30px; display:inline-block; margin:10px 20px; border-top: 3px solid #333; padding:10px; text-align: center;}
+nav ul li a{text-decoration: none; color:#222;}
+nav ul li:hover{background-color: #eee; transform: scale(1.1);}
+/* 커서가 올라오면 색이 변함 */
+/* nav ul li:hover는 ul li 전체, nav ul li a:hover는 글자가 있는 부분만 변색 */
+section{background-color: aquamarine; height: 500px;}
